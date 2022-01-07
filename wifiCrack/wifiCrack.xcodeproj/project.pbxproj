@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1806C01927871F8F00D97603 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806C01827871F8F00D97603 /* AppDelegate.swift */; };
+		1806C01B27871F8F00D97603 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806C01A27871F8F00D97603 /* SceneDelegate.swift */; };
+		1806C01D27871F8F00D97603 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806C01C27871F8F00D97603 /* ViewController.swift */; };
+		1806C02027871F8F00D97603 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1806C01E27871F8F00D97603 /* Main.storyboard */; };
+		1806C02227871F9200D97603 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1806C02127871F9200D97603 /* Assets.xcassets */; };
+		1806C02527871F9200D97603 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1806C02327871F9200D97603 /* LaunchScreen.storyboard */; };
+		1806C03027871F9300D97603 /* wifiCrackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806C02F27871F9300D97603 /* wifiCrackTests.swift */; };
+		1806C03A27871F9300D97603 /* wifiCrackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806C03927871F9300D97603 /* wifiCrackUITests.swift */; };
+		1806C03C27871F9300D97603 /* wifiCrackUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806C03B27871F9300D97603 /* wifiCrackUITestsLaunchTests.swift */; };
+		187CBA012787FE2700CEC098 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187CBA002787FE2700CEC098 /* ExternalAccessory.framework */; };
+		187CBA0327880B2F00CEC098 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187CBA0227880B2F00CEC098 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1806C02C27871F9300D97603 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1806C00D27871F8F00D97603 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1806C01427871F8F00D97603;
+			remoteInfo = wifiCrack;
+		};
+		1806C03627871F9300D97603 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1806C00D27871F8F00D97603 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1806C01427871F8F00D97603;
+			remoteInfo = wifiCrack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1806C01527871F8F00D97603 /* wifiCrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wifiCrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1806C01827871F8F00D97603 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1806C01A27871F8F00D97603 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1806C01C27871F8F00D97603 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1806C01F27871F8F00D97603 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1806C02127871F9200D97603 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1806C02427871F9200D97603 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1806C02627871F9200D97603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1806C02B27871F9300D97603 /* wifiCrackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wifiCrackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1806C02F27871F9300D97603 /* wifiCrackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wifiCrackTests.swift; sourceTree = "<group>"; };
+		1806C03527871F9300D97603 /* wifiCrackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wifiCrackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1806C03927871F9300D97603 /* wifiCrackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wifiCrackUITests.swift; sourceTree = "<group>"; };
+		1806C03B27871F9300D97603 /* wifiCrackUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wifiCrackUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1806C048278726B400D97603 /* wifiCrack.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = wifiCrack.entitlements; sourceTree = "<group>"; };
+		187CBA002787FE2700CEC098 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		187CBA0227880B2F00CEC098 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1806C01227871F8F00D97603 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187CBA0327880B2F00CEC098 /* SystemConfiguration.framework in Frameworks */,
+				187CBA012787FE2700CEC098 /* ExternalAccessory.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1806C02827871F9300D97603 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1806C03227871F9300D97603 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1806C00C27871F8F00D97603 = {
+			isa = PBXGroup;
+			children = (
+				1806C01727871F8F00D97603 /* wifiCrack */,
+				1806C02E27871F9300D97603 /* wifiCrackTests */,
+				1806C03827871F9300D97603 /* wifiCrackUITests */,
+				1806C01627871F8F00D97603 /* Products */,
+				187CB9FF2787FE2700CEC098 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1806C01627871F8F00D97603 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1806C01527871F8F00D97603 /* wifiCrack.app */,
+				1806C02B27871F9300D97603 /* wifiCrackTests.xctest */,
+				1806C03527871F9300D97603 /* wifiCrackUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1806C01727871F8F00D97603 /* wifiCrack */ = {
+			isa = PBXGroup;
+			children = (
+				1806C048278726B400D97603 /* wifiCrack.entitlements */,
+				1806C01827871F8F00D97603 /* AppDelegate.swift */,
+				1806C01A27871F8F00D97603 /* SceneDelegate.swift */,
+				1806C01C27871F8F00D97603 /* ViewController.swift */,
+				1806C01E27871F8F00D97603 /* Main.storyboard */,
+				1806C02127871F9200D97603 /* Assets.xcassets */,
+				1806C02327871F9200D97603 /* LaunchScreen.storyboard */,
+				1806C02627871F9200D97603 /* Info.plist */,
+			);
+			path = wifiCrack;
+			sourceTree = "<group>";
+		};
+		1806C02E27871F9300D97603 /* wifiCrackTests */ = {
+			isa = PBXGroup;
+			children = (
+				1806C02F27871F9300D97603 /* wifiCrackTests.swift */,
+			);
+			path = wifiCrackTests;
+			sourceTree = "<group>";
+		};
+		1806C03827871F9300D97603 /* wifiCrackUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1806C03927871F9300D97603 /* wifiCrackUITests.swift */,
+				1806C03B27871F9300D97603 /* wifiCrackUITestsLaunchTests.swift */,
+			);
+			path = wifiCrackUITests;
+			sourceTree = "<group>";
+		};
+		187CB9FF2787FE2700CEC098 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				187CBA0227880B2F00CEC098 /* SystemConfiguration.framework */,
+				187CBA002787FE2700CEC098 /* ExternalAccessory.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1806C01427871F8F00D97603 /* wifiCrack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1806C03F27871F9300D97603 /* Build configuration list for PBXNativeTarget "wifiCrack" */;
+			buildPhases = (
+				1806C01127871F8F00D97603 /* Sources */,
+				1806C01227871F8F00D97603 /* Frameworks */,
+				1806C01327871F8F00D97603 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wifiCrack;
+			productName = wifiCrack;
+			productReference = 1806C01527871F8F00D97603 /* wifiCrack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1806C02A27871F9300D97603 /* wifiCrackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1806C04227871F9300D97603 /* Build configuration list for PBXNativeTarget "wifiCrackTests" */;
+			buildPhases = (
+				1806C02727871F9300D97603 /* Sources */,
+				1806C02827871F9300D97603 /* Frameworks */,
+				1806C02927871F9300D97603 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1806C02D27871F9300D97603 /* PBXTargetDependency */,
+			);
+			name = wifiCrackTests;
+			productName = wifiCrackTests;
+			productReference = 1806C02B27871F9300D97603 /* wifiCrackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1806C03427871F9300D97603 /* wifiCrackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1806C04527871F9300D97603 /* Build configuration list for PBXNativeTarget "wifiCrackUITests" */;
+			buildPhases = (
+				1806C03127871F9300D97603 /* Sources */,
+				1806C03227871F9300D97603 /* Frameworks */,
+				1806C03327871F9300D97603 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1806C03727871F9300D97603 /* PBXTargetDependency */,
+			);
+			name = wifiCrackUITests;
+			productName = wifiCrackUITests;
+			productReference = 1806C03527871F9300D97603 /* wifiCrackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1806C00D27871F8F00D97603 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					1806C01427871F8F00D97603 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					1806C02A27871F9300D97603 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 1806C01427871F8F00D97603;
+					};
+					1806C03427871F9300D97603 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 1806C01427871F8F00D97603;
+					};
+				};
+			};
+			buildConfigurationList = 1806C01027871F8F00D97603 /* Build configuration list for PBXProject "wifiCrack" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1806C00C27871F8F00D97603;
+			productRefGroup = 1806C01627871F8F00D97603 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1806C01427871F8F00D97603 /* wifiCrack */,
+				1806C02A27871F9300D97603 /* wifiCrackTests */,
+				1806C03427871F9300D97603 /* wifiCrackUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1806C01327871F8F00D97603 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1806C02527871F9200D97603 /* LaunchScreen.storyboard in Resources */,
+				1806C02227871F9200D97603 /* Assets.xcassets in Resources */,
+				1806C02027871F8F00D97603 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1806C02927871F9300D97603 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1806C03327871F9300D97603 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1806C01127871F8F00D97603 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1806C01D27871F8F00D97603 /* ViewController.swift in Sources */,
+				1806C01927871F8F00D97603 /* AppDelegate.swift in Sources */,
+				1806C01B27871F8F00D97603 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1806C02727871F9300D97603 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1806C03027871F9300D97603 /* wifiCrackTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1806C03127871F9300D97603 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1806C03C27871F9300D97603 /* wifiCrackUITestsLaunchTests.swift in Sources */,
+				1806C03A27871F9300D97603 /* wifiCrackUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1806C02D27871F9300D97603 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1806C01427871F8F00D97603 /* wifiCrack */;
+			targetProxy = 1806C02C27871F9300D97603 /* PBXContainerItemProxy */;
+		};
+		1806C03727871F9300D97603 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1806C01427871F8F00D97603 /* wifiCrack */;
+			targetProxy = 1806C03627871F9300D97603 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1806C01E27871F8F00D97603 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1806C01F27871F8F00D97603 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1806C02327871F9200D97603 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1806C02427871F9200D97603 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1806C03D27871F9300D97603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1806C03E27871F9300D97603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1806C04027871F9300D97603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = wifiCrack/wifiCrack.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 33F2LWCDK8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = wifiCrack/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Application requires user’s location for better user experience.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Application requires user’s location for better user experience.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Application requires user’s location for better user experience.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wifiCrackApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1806C04127871F9300D97603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = wifiCrack/wifiCrack.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 33F2LWCDK8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = wifiCrack/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Application requires user’s location for better user experience.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Application requires user’s location for better user experience.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Application requires user’s location for better user experience.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wifiCrackApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1806C04327871F9300D97603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VWQ6QGTVUP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wifiCrackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wifiCrack.app/wifiCrack";
+			};
+			name = Debug;
+		};
+		1806C04427871F9300D97603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VWQ6QGTVUP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wifiCrackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wifiCrack.app/wifiCrack";
+			};
+			name = Release;
+		};
+		1806C04627871F9300D97603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VWQ6QGTVUP;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wifiCrackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = wifiCrack;
+			};
+			name = Debug;
+		};
+		1806C04727871F9300D97603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VWQ6QGTVUP;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wifiCrackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = wifiCrack;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1806C01027871F8F00D97603 /* Build configuration list for PBXProject "wifiCrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1806C03D27871F9300D97603 /* Debug */,
+				1806C03E27871F9300D97603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1806C03F27871F9300D97603 /* Build configuration list for PBXNativeTarget "wifiCrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1806C04027871F9300D97603 /* Debug */,
+				1806C04127871F9300D97603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1806C04227871F9300D97603 /* Build configuration list for PBXNativeTarget "wifiCrackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1806C04327871F9300D97603 /* Debug */,
+				1806C04427871F9300D97603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1806C04527871F9300D97603 /* Build configuration list for PBXNativeTarget "wifiCrackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1806C04627871F9300D97603 /* Debug */,
+				1806C04727871F9300D97603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1806C00D27871F8F00D97603 /* Project object */;
+}
