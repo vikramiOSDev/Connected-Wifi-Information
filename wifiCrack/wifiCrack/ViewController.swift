@@ -251,13 +251,13 @@ class ViewController: UIViewController {
                 print("“iPhone 5 or 5S or 5C”")
                 break
             case 1334:
-                print("“iPhone 6/6S/7/8”")
+                //print("“iPhone 6/6S/7/8”")
                 break
             case 2208:
                 print("“iPhone 6+/6S+/7+/8+”")
                 break
             case 2436:
-                print("“iPhone X”")
+                //print("“iPhone X”")
                 return true
             default:
                 break
