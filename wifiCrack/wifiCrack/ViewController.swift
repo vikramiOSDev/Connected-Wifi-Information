@@ -257,11 +257,11 @@ class ViewController: UIViewController {
     print("“iPhone 6+/6S+/7+/8+”")
     break
     case 2436:
-    //print(“iPhone X”)
+    print("“iPhone X”")
     return true
     default:
     break
-    //print(“unknown”)
+    print("“unknown”")
     }
     }
     return false
