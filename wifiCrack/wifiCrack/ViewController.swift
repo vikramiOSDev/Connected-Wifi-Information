@@ -248,13 +248,13 @@ class ViewController: UIViewController {
         if UIDevice().userInterfaceIdiom == .phone {
             switch UIScreen.main.nativeBounds.height {
             case 1136:
-                print("“iPhone 5 or 5S or 5C”")
+                //print("“iPhone 5 or 5S or 5C”")
                 break
             case 1334:
                 //print("“iPhone 6/6S/7/8”")
                 break
             case 2208:
-                print("“iPhone 6+/6S+/7+/8+”")
+                //print("“iPhone 6+/6S+/7+/8+”")
                 break
             case 2436:
                 //print("“iPhone X”")
